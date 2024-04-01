@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Major Industries in Punjab and Rajasthan</title>
+</head>
+<body>
+
+
+<header>
+    <h1>Major Industries in Punjab and Rajasthan</h1>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="#punjab">Punjab</a></li>
+        <li><a href="#rajasthan">Rajasthan</a></li>
+    </ul>
+</nav>
+
+<!
+<main>
+  
+    <section id="punjab">
+        <h2>Punjab Industries</h2>
+        <p>
+           <h3> Punjab State Cooperative Handloom Weavers Federation (PUNCOFED)</h3>
+<h5> 1PUNCOFED </h5> The principal aim of its establishment was to furnish aid and backing to handloom artisans in Punjab.Through the promotion of their goods and the payment of fair compensation for their labor, the federation hopes to improve the social and economic standing of handloom weavers.The assortment of handloom textiles that PUNCOFED offers comprises stoles, shawls, sarees, clothing fabrics, and home furnishings.
+The handloom products are known for their traditional designs, intricate patterns, and high-quality craftsmanship
+
+
+        </p>
+
+        
+        <img src="https://www.knnindia.co.in/uploads/newsfiles/HANDLOOM-21-4-2022.jpg alt="Punjab Industry 1">
+        <p><h3>Hero Cycles</h3>
+ Brijmohan Lall Munjal, Om Prakash Munjal, Dayanand Munjal, and Satyanand Munjal were the four brothers that established Hero Cycles in 1956. In Amritsar, Punjab, it began as a little company making bicycle parts before growing to produce entire bicycles.Hero Cycles has a wide selection of bicycles to suit different market niches and age brackets. They make bicycles for recreational riding, sports, everyday commuting, and fitness. The business has also dabbled with the production of electric bicycles, or "e-bikes," and it exports its goods to numerous nations across the globe. 
+        <img src="https://cdni.autocarindia.com/utils/imageresizer.ashx?n=http://img.haymarketsac.in/autocarpro/0f567486-83bd-45a5-bd99-955ac3e18285.jpg" alt="Punjab Industry 2">
+
+
+
+    
+    <section id="rajasthan">
+        <h2>Rajasthan Industries</h2>
+        <p><h3> Rajasthan Tourism Industry</h3>
+ Rajasthan is a well-liked travel destination that is well-known for its historical havelis, palaces, and forts. All across the world, travelers flock to major cities like Jaipur, Udaipur, Jodhpur, Jaisalmer, and Pushkar.Numerous national parks and animal sanctuaries may be found in Rajasthan, offering opportunity for those who enjoy the outdoors and wildlife. Among the well-known wildlife sites are the Ranthambore National Park, Sariska Tiger Reserve, Keoladeo National Park (Bharatpur Bird Sanctuary), and Desert National Park.
+
+        </p>
+
+        
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2014/11/Jaisalmer-Fort.jpg" alt="Rajasthan Industry 1">
+        <p><h3> Rajasthan Agricultural Industry</h3>
+ Rajasthan's economy is heavily reliant on agriculture, and the state is well-known for growing cotton, oilseeds, pulses, wheat, barley, and millets.In Rajasthan, interest in organic farming methods has grown. To create agricultural goods that are free of chemicals and beneficial for the environment, many farmers are turning to organic farming practices.The agricultural output of Rajasthan contributes to the industrial growth of the state by providing raw materials for a range of agro-based industries, including edible oil processing, cotton textiles, sugar mills, and grain mills.
+        <img src="https://img.etimg.com/thumb/msid-81189677,width-300,height-225,imgsize-337503,resizemode-75/new_agriculture_2_afp_comyan.jpg" alt="Rajasthan Industry 2">
+</P>
+<body>
+    <h1>Select a state to watch the video:</h1>
+    <label>
+        <input type="radio" name="state" value="punjab"> Punjab
+    </label>
+    <label>
+        <input type="radio" name="state" value="rajasthan"> Rajasthan
+    </label>
+    <button onclick="playVideo()">Play Video</button>
+
+    <div id="videoPlayer"></div>
+
+    <script>
+        function playVideo() {
+            const videoPlayer = document.getElementById('videoPlayer');
+            const state = document.querySelector('input[name="state"]:checked').value;
+
+            
+            let videoURL;
+            if (state === 'punjab') {
+                videoURL = 'https://www.youtube.com/embed/uPOYcRCeE24';
+            } else if (state === 'rajasthan') {
+                videoURL = 'https://www.youtube.com/embed/LtRx3gMnzs4';
+            } else {
+                
+                videoPlayer.innerHTML = '<p>Please select a state before playing the video.</p>';
+                return;
+            }
+
+            
+            videoPlayer.innerHTML = `<iframe width="640" height="360" src="${videoURL}" frameborder="0" allowfullscreen></iframe>`;
+        }
+    </script>
+</body>
+
+
+
+<footer>
+    <p>Contact us:Sharandeep Singh: 814637@columbiacollege.ca , Ashwinder Singh :815097@columbiacollege.ca</p>
+</footer>
+
+
+    
+</body>
+</html>
